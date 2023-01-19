@@ -1,0 +1,6 @@
+/// @description Lose life
+die();
+
+
+
+
