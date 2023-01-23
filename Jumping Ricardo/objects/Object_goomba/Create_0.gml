@@ -2,10 +2,9 @@
 /// https://forum.gamemaker.io/index.php?threads/i-need-tips-on-enemies-and-collisions.58745/
 vsp = 0;
 grv = 0.6;
-walksp = 3;
+walksp = -1.5;
 hsp = walksp;
-hp = 4;
-hitfrom = 0;
+height = 40;
 
 
 
