@@ -1,9 +1,10 @@
 /// @description Insert description here
-vsp = 0;
-grv = 0.6;
-walksp = -1.5;
-hsp = walksp;
-height = 40;
+hsp = 3;
+vsp = -4;
+grv = 0.3;
+done = 1;
+
+image_speed = 0;
 
 
 

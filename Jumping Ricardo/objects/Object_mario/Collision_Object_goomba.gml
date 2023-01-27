@@ -5,11 +5,13 @@ if(vspeed>0 ) {
 
 		with (other) {
 			instance_destroy();
-			
+			done=-1
 		}
 	}
 }
-
+else {
+die();
+}
 
 
 
