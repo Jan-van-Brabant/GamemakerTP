@@ -5,7 +5,13 @@ if(vspeed>0 ) {
 
 		with (other) {
 			instance_destroy();
-			done=-1
+			with(instance_create_layer(x,y,layer,Object_goombadead))
+			{
+				hsp = lengthdir_x(3,direction);
+				vsp = lengthdir_y(3,direction);
+				if (sign(hsp) != 0) image_xscale = sign(hsp);
+				
+				}
 		}
 	}
 }
