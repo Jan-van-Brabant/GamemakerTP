@@ -5,6 +5,7 @@ if(vspeed>0 ) {
 
 		with (other) {
 			instance_destroy();
+			audio_play_sound(Sound_goombadead, 1, false);
 			with(instance_create_layer(x,y,layer,Object_goombadead))
 			{
 				hsp = lengthdir_x(3,direction);
