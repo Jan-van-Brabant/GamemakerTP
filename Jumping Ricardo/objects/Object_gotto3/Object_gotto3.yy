@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object_gotto1",
+  "name": "Object_gotto3",
   "spriteId": {
     "name": "Spr_gotto",
     "path": "sprites/Spr_gotto/Spr_gotto.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
