@@ -5,7 +5,7 @@ if(vspeed>0 ) {
 	if (height < 0) {
 
 		with (other) {
-			room_goto(Level2);
+			room_goto(Levelcoin);
 			audio_play_sound(Sound_pipe, 1, false);
 		}
 	}
