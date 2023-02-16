@@ -20,7 +20,7 @@ if (done == 0)
 		if (vsp > 0) 
 		{
 			done = 1;
-			image_index = 1;
+			image_index = 0;
 		}
 		while (!place_meeting(x,y+sign(vsp),Object_wall))
 		{
@@ -30,6 +30,10 @@ if (done == 0)
 	}
 	y = y + vsp;
 	
+}
+if (image_speed > 0)
+{
+    if (image_index = 12 ) instance_destroy();
 }
 
 
