@@ -6,7 +6,7 @@
     "name": "Spr_gotto",
     "path": "sprites/Spr_gotto/Spr_gotto.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
