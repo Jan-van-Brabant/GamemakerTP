@@ -1,4 +1,3 @@
 /// @description Insert description here
-global.death = 0;
-
+room_goto(Menu);
 

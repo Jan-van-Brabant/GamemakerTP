@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Menu",
+  "name": "Highscore_variable",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -17,17 +17,17 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4554B737","properties":[],"isDnd":false,"objectId":{"name":"Object_circlebutton","path":"objects/Object_circlebutton/Object_circlebutton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.55,"scaleY":0.55,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":285.0,"y":236.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DAF33D8","properties":[],"isDnd":false,"objectId":{"name":"Object_menu","path":"objects/Object_menu/Object_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33C54435","properties":[],"isDnd":false,"objectId":{"name":"Object_mario","path":"objects/Object_mario/Object_mario.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_575B1C83","properties":[],"isDnd":false,"objectId":{"name":"Object_Highscorevariable","path":"objects/Object_Highscorevariable/Object_Highscorevariable.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.8666668,"scaleY":1.7466667,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-160.0,"y":-128.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"Spr_backgroundmenu","path":"sprites/Spr_backgroundmenu/Spr_backgroundmenu.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "${project_dir}/rooms/Level1/RoomCreationCode.gml",
+  "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_4554B737","path":"rooms/Menu/Menu.yy",},
-    {"name":"inst_4DAF33D8","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_33C54435","path":"rooms/Highscore_variable/Highscore_variable.yy",},
+    {"name":"inst_575B1C83","path":"rooms/Highscore_variable/Highscore_variable.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

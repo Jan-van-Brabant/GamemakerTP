@@ -1,2 +1,4 @@
 /// @description Insert description here
-room_goto(Finish);
+global.score2= 0;
+
+

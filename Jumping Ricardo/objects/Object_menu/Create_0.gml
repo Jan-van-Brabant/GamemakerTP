@@ -1,7 +1,5 @@
 /// @description Insert description here
-room_goto(Level1);
-
-
-
+global.death = 0;
+score = 0;
 
 
