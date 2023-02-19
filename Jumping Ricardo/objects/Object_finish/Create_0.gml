@@ -15,3 +15,5 @@ if (global.score2 > score1) {
 else {
 	global.score2 = score1;
 }
+
+global.highscore1 = global.highscore;

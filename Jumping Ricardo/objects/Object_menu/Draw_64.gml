@@ -14,4 +14,4 @@ draw_text(340, 352, ("Start" ));
 
 draw_set_colour(colour2);
 draw_set_font(Font_highscore);
-draw_text(595, 430, ("Score = coins/deathcount"  ));
+draw_text(700, 430, ("Highscore: " + string(global.highscore1)));
