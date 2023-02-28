@@ -1,7 +1,7 @@
-/// @description Insert description here
+// Dit is er om ervoor te zorgen dat er geen gravity is als je op een wall staat.
 if (!place_meeting(x, y + 1, Object_wall))
 {
-	// Between 0 and 1. Higher is stronger
+	
 	gravity = 0.6;
 }
 else
@@ -9,7 +9,7 @@ else
 	gravity = 0;
 }
 
-// Limit vertical speed
+// Dit zorgt ervoor dat de verticale snelheid niet boven de 6 komt.
 if (vspeed > 6)
 {
 	vspeed = 6;

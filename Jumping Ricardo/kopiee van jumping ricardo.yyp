@@ -5,7 +5,7 @@
   "resources": [
     {"id":{"name":"Spr_goombadead","path":"sprites/Spr_goombadead/Spr_goombadead.yy",},"order":17,},
     {"id":{"name":"Spr_backgroundmenu","path":"sprites/Spr_backgroundmenu/Spr_backgroundmenu.yy",},"order":19,},
-    {"id":{"name":"Spr_background","path":"sprites/Spr_background/Spr_background.yy",},"order":8,},
+    {"id":{"name":"Spr_backgroundlevel2","path":"sprites/Spr_backgroundlevel2/Spr_backgroundlevel2.yy",},"order":8,},
     {"id":{"name":"Spr_lava","path":"sprites/Spr_lava/Spr_lava.yy",},"order":5,},
     {"id":{"name":"Sound_coin","path":"sounds/Sound_coin/Sound_coin.yy",},"order":0,},
     {"id":{"name":"Spr_doorleft","path":"sprites/Spr_doorleft/Spr_doorleft.yy",},"order":11,},

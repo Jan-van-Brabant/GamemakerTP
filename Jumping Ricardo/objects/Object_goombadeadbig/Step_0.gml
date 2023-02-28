@@ -1,4 +1,4 @@
-/// @description Insert description here
+// Zelfde code als bij Object_goombadead alleen hier wordt een andere sprite gebruikt. 
 if (done == 0)
 {
 	vsp = vsp + grv;

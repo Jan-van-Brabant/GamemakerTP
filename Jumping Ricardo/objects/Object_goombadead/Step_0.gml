@@ -1,9 +1,11 @@
-/// @description Insert description here
+// hier wordt done gebruikt dat is een variabele die eigenlijk altijd 0 is. Dit object wordt pas zichtbaar
+// als er op het hoofd van de goomba is gestampt. Dit is eigenlijk dezelfde code als bij Object_goomba 
+// behalve het einde. 
 if (done == 0)
 {
 	vsp = vsp + grv;
 
-	//Horizontal Collision
+	//Horizontale botsing
 	if (place_meeting(x+hsp,y,Object_wall))
 	{
 		while (!place_meeting(x+sign(hsp),y,Object_wall))
@@ -14,7 +16,7 @@ if (done == 0)
 	}
 	x = x + hsp;
 
-	//Vertical Collision
+	//Verticale botsing
 	if (place_meeting(x,y+vsp,Object_wall))
 	{
 		if (vsp > 0) 
@@ -31,6 +33,7 @@ if (done == 0)
 	y = y + vsp;
 	
 }
+// Hieronder wordt gedefinieerd als de goombadead frame 12 behaald dan moet die verdwijnen anders verdwijnt die niet. 
 if (image_speed > 0)
 {
     if (image_index = 12 ) instance_destroy();

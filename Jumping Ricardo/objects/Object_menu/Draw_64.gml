@@ -1,4 +1,8 @@
-/// @description Insert description here
+// Hierboven wordt de goude kleur gedefineerd die gebruikt is. Daaronder wordt de tekst geschreven met die 
+// kleur. Deze tekst wordt dan zichtbaar in de room (menu). Ook zijn er verschillende fonts gebruikt voor de 
+// lettergrootte. De highscore wordt hier ook weergegeven als je begint is die natuurlijk nul, maar na elke
+// finish wordt die bij object_finish in de code daar geupdate. 
+
 colour2 = #FBE2A6;
 
 

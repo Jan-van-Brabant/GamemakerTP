@@ -1,4 +1,4 @@
-/// @description Insert description here
+//Hier worden de verschillende variabele gedefinieerd die nodig zijn in de functie. 
 
 vsp = 0;
 grv = 0.6;
