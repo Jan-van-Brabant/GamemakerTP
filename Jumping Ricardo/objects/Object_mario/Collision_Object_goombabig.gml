@@ -1,4 +1,4 @@
-/// @description Insert description here
+//Zelfde code als bij Object_goomba hierboven.
 if(vspeed>0 ) {
 	var height = y - other.y;
 	if (height < 0) {
