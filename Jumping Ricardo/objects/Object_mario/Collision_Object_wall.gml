@@ -1,5 +1,5 @@
-// Dit is de code voor elke wall en block om ervoor te zorgen dat die solid is en je er niet doorheen valt
-// met je poppetje. 
+// Dit is de code voor elke wall en block om ervoor te zorgen dat die solid is en je niet door de wall heen
+// valt met je poppetje. 
 if (!place_free(x + hspeed, y))
 {
     if (hspeed <= 0) { move_contact_solid(180, abs(hspeed)); }
